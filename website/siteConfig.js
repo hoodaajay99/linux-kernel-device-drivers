@@ -21,27 +21,26 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Test Site', // Title for your website.
-  tagline: 'A website for testing',
-  url: 'https://your-docusaurus-test-site.com', // Your website URL
+  title: 'Tech Skillo', // Title for your website.
+  tagline: 'Learn Programming in C',
+  url: 'https://techskillo.com', // Your website URL
   baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'test-site',
-  organizationName: 'facebook',
+  projectName: 'c_programming',
+  organizationName: 'hoodaajay99',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    {doc: '00-Course-Introduction/AnoutMe.md', label: 'Start the Course'},
-    // {doc: 'doc4', label: 'API'},
-    // {page: 'help', label: 'Help'},
-    // {blog: true, label: 'Blog'},
+    {doc: '00-Course-Introduction/course-introduction', label: 'START THE COURSE'},
+    // {page: 'help', label: 'HELP'},
+    {blog: true, label: 'BLOG'},
   ],
 
   // If you have users set above, you add it here:
@@ -54,8 +53,8 @@ const siteConfig = {
 
   /* Colors for website */
   colors: {
-    primaryColor: '#6a4d64',
-    secondaryColor: '#4a3546',
+    primaryColor: '#6A1B9A',
+    secondaryColor: '#8E24AA',
   },
 
   /* Custom fonts for website */
@@ -73,7 +72,7 @@ const siteConfig = {
   */
 
   // This copyright info is used in /core/Footer.js and blog RSS/Atom feeds.
-  copyright: `Copyright © ${new Date().getFullYear()} Your Name or Your Company Name`,
+  copyright: `Copyright © ${new Date().getFullYear()} TechSkillo.com`,
 
   highlight: {
     // Highlight.js theme to use for syntax highlighting in code blocks.
@@ -94,19 +93,54 @@ const siteConfig = {
 
   // For sites with a sizable amount of content, set collapsible to true.
   // Expand/collapse the links and subcategories under categories.
-  // docsSideNavCollapsible: true,
+  docsSideNavCollapsible: true,
 
   // Show documentation's last contributor's name.
-  // enableUpdateBy: true,
+  enableUpdateBy: true,
 
   // Show documentation's last update time.
-  // enableUpdateTime: true,
+  enableUpdateTime: true,
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
   //   repoUrl: 'https://github.com/facebook/test-site',
 
-  customDocsPath: "./../../"
+  // customDocsPath: '../c_programming_course'
+
+  // It will go into a CNAME file when your site is built.
+  cname: 'techskillo.com',
+
+  // Google Analytics tracking ID to track page views.
+  gaTrackingId: "UA-46809639-2",
+  // Use global site tags (gtag.js)
+  // send event data to all - Google Ads, Campaign Manager, Display & Video 360, Search Ads 360, and Google Analytics
+  gaGtag: true,
+
+  // Shows on Home Page
+  tagline: "Learn Programming With Industry Experts",
+  //disableTitleTagline: true,
+
+  // Sets edit on each page with link to markdown file on GitHub
+  editUrl: "https://github.com/hoodaajay99/c_programming/blob/master/docs/",
+
+  // scroll to top button at the bottom of your site.
+  // scrollToTop: true
+  // scrollToTopOptions
+
+  // AJAY TODO:
+  // manifest
+  // ogImage
+  // scripts
+  // separateCss
+  // stylesheets
+  // Facebook
+  // twitter
+  // twitterUsername
+  // twitterImage
+  // Comments
+  
+
+
 };
 
 module.exports = siteConfig;

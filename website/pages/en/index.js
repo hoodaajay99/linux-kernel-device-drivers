@@ -60,13 +60,13 @@ class HomeSplash extends React.Component {
 
     return (
       <SplashContainer>
-        <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} />
+        {/* <Logo img_src={`${baseUrl}img/undraw_monitor.svg`} /> */}
         <div className="inner">
           <ProjectTitle siteConfig={siteConfig} />
           <PromoSection>
-            <Button href="#try">Try It Out</Button>
-            <Button href={docUrl('doc1.html')}>Example Link</Button>
-            <Button href={docUrl('doc2.html')}>Example Link 2</Button>
+            <Button href={docUrl('00-Course-Introduction/course-introduction')}>Start the Course</Button>
+            {/* <Button href={docUrl('doc1.html')}>Example Link</Button>
+            <Button href={docUrl('doc2.html')}>Example Link 2</Button> */}
           </PromoSection>
         </div>
       </SplashContainer>
@@ -96,8 +96,14 @@ class Index extends React.Component {
       <div
         className="productShowcaseSection paddingBottom"
         style={{textAlign: 'center'}}>
-        <h2>Feature Callout</h2>
-        <MarkdownBlock>These are features of this project</MarkdownBlock>
+        <h2>What You Will Learn</h2>
+        <MarkdownBlock>Core programming concepts</MarkdownBlock>
+        <MarkdownBlock>Fundamental of C programming language</MarkdownBlock>
+        <MarkdownBlock>Able to understand C code</MarkdownBlock>
+        <MarkdownBlock>Able to write C code</MarkdownBlock>
+        <MarkdownBlock>Able to structure and write your C application</MarkdownBlock>
+        <MarkdownBlock>Able to Debug your application</MarkdownBlock>
+        <MarkdownBlock>Get good unserstanding of pointers</MarkdownBlock>
       </div>
     );
 
@@ -149,16 +155,16 @@ class Index extends React.Component {
       <Block layout="fourColumn">
         {[
           {
-            content: 'This is the content of my feature',
-            image: `${baseUrl}img/undraw_react.svg`,
+            content: 'Complex concepts made simple',
+            image: `${baseUrl}img/simple-learning.png`,
             imageAlign: 'top',
-            title: 'Feature One',
+            title: 'Simple Learning',
           },
           {
-            content: 'The content of my second feature',
-            image: `${baseUrl}img/undraw_operating_system.svg`,
+            content: 'Follow examples along the course',
+            image: `${baseUrl}img/learn-with-examples.png`,
             imageAlign: 'top',
-            title: 'Feature Two',
+            title: 'Learn With Examples',
           },
         ]}
       </Block>
@@ -199,10 +205,10 @@ class Index extends React.Component {
         <div className="mainContainer">
           <Features />
           <FeatureCallout />
-          <LearnHow />
-          <TryOut />
-          <Description />
-          <Showcase />
+          {/* <LearnHow /> */}
+          {/* <TryOut /> */}
+          {/* <Description /> */}
+          {/* <Showcase /> */}
         </div>
       </div>
     );
