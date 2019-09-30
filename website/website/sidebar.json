@@ -1,0 +1,176 @@
+{
+    "docs":
+    {
+        "Introduction to Linux" : [
+            "02-Introduction-to-Linux/02-Linux-Definition/Linux-Definition",
+            "02-Introduction-to-Linux/04-What-is-Operating-System/What-is-Operating-System",
+            "02-Introduction-to-Linux/06-Unix-and-its-History/Unix-and-its-History",
+            "02-Introduction-to-Linux/08-History-of-Linux/History-of-Linux",
+            "02-Introduction-to-Linux/10-Benefits-of-Linux/Benefits-of-Linux",
+            "02-Introduction-to-Linux/12-Differences-Between-Unix-and-Linux/Differences-Between-Unix-and-Linux",
+            "02-Introduction-to-Linux/14-The-Free-Software-Foundation/The-Free-Software-Foundation",
+            "02-Introduction-to-Linux/16-GNU-GPL-License/GNU-GPL-License"
+        ],
+        "Linux Distributions" : [
+            "04-Linux-Distributions/02-What-is-a-Linux-Distribution/What-is-a-Linux-Distribution",
+            "04-Linux-Distributions/04-Distributions-Overview/Distributions-Overview",
+            "04-Linux-Distributions/06-Choosing-a-Linux-Distribution/Choosing-a-Linux-Distribution"
+        ],
+        "Introduction to Device Drivers" : [
+            "06-Introduction-to-Device-Drivers/02-Device-Driver-and-Role/Device-Driver-and-Role",
+            "06-Introduction-to-Device-Drivers/04-Linux-Kernel-Overview/Linux-Kernel-Overview",
+            "06-Introduction-to-Device-Drivers/06-Loadable-Modules/Loadable-Modules",
+            "06-Introduction-to-Device-Drivers/08-Classes-of-Devices-and-Modules/Classes-of-Devices-and-Modules",
+            "06-Introduction-to-Device-Drivers/10-Security-Issues/Security-Issues",
+            "06-Introduction-to-Device-Drivers/12-Linux-Kernel-Versions/Linux-Kernel-Versions"
+        ],
+        "Building and Running Modules" : [
+            "08-Building-and-Running-Modules/02-Setting-Up-Your-System/Setting-Up-Your-System",
+            "08-Building-and-Running-Modules/04-Using-Docker/Using-Docker",
+            "08-Building-and-Running-Modules/06-Linux-Kernel-Modules-LKM/Linux-Kernel-Modules-LKM",
+            "08-Building-and-Running-Modules/08-Hello-World-Module/Hello-World-Module",
+            "08-Building-and-Running-Modules/10-Kernel-Modules-Versus-Applications/Kernel-Modules-Versus-Applications",
+            "08-Building-and-Running-Modules/12-Compiling-Modules/Compiling-Modules",
+            "08-Building-and-Running-Modules/14-Loading-and-Unloading-Modules/Loading-and-Unloading-Modules",
+            "08-Building-and-Running-Modules/16-The-Kernel-Symbol-Table/The-Kernel-Symbol-Table"
+        ],
+        "Modules In Detail" : [
+            "10-Modules-In-Detail/02-Module-Loading-and-Initialization/Module-Loading-and-Initialization",
+            "10-Modules-In-Detail/04-Module-Unloading-and-Cleanup/Module-Unloading-and-Cleanup",
+            "10-Modules-In-Detail/06-Module-Parameters/Module-Parameters",
+            "10-Modules-In-Detail/08-Probing-Modules/Probing-Modules"
+        ],
+        "Character Drivers" : [
+            "12-Character-Drivers/02-Overview/Overview",
+            "12-Character-Drivers/04-Major-and-Minor-Numbers/Major-and-Minor-Numbers",
+            "12-Character-Drivers/06-Char-Device-Registration/Char-Device-Registration",
+            "12-Character-Drivers/08-File-Operations/File-Operations",
+            "12-Character-Drivers/10-Open-and-Close-Operations/Open-and-Close-Operations",
+            "12-Character-Drivers/12-Read-and-Write-Operations/Read-and-Write-Operations"
+        ],
+        "Debugging in Linux Kernel" : [
+            "14-Debugging-in-Linux-Kernel/02-Debug-flags-in-Linux-Kernel/Debug-flags-in-Linux-Kernel",
+            "14-Debugging-in-Linux-Kernel/04-Debugging-using-printk/Debugging-using-printk",
+            "14-Debugging-in-Linux-Kernel/06-Using-the-proc-Filesystem/Using-the-proc-Filesystem",
+            "14-Debugging-in-Linux-Kernel/08-The-ioctl-Method/The-ioctl-Method",
+            "14-Debugging-in-Linux-Kernel/10-Watching-Application-Behavior/Watching-Application-Behavior",
+            "14-Debugging-in-Linux-Kernel/12-System-Faults/System-Faults",
+            "14-Debugging-in-Linux-Kernel/14-Using-gdb/Using-gdb",
+            "14-Debugging-in-Linux-Kernel/16-The-kdb-Kernel-Debugger/The-kdb-Kernel-Debugger",
+            "14-Debugging-in-Linux-Kernel/18-Linux-Trace-Toolkit/Linux-Trace-Toolkit"
+        ],
+        "Concurrency and RaceConditions" : [
+            "16-Concurrency-and-RaceConditions/02-Symmetric-multiprocessing-aka-SMP-systems/Symmetric-multiprocessing-aka-SMP-systems",
+            "16-Concurrency-and-RaceConditions/04-Concurrency-and-Its-Management/Concurrency-and-Its-Management",
+            "16-Concurrency-and-RaceConditions/06-Semaphores-and-Mutexes/Semaphores-and-Mutexes",
+            "16-Concurrency-and-RaceConditions/08-Completions/Completions",
+            "16-Concurrency-and-RaceConditions/10-Spinlocks/Spinlocks",
+            "16-Concurrency-and-RaceConditions/12-Atomic-Variables/Atomic-Variables",
+            "16-Concurrency-and-RaceConditions/14-Bit-Operations/Bit-Operations",
+            "16-Concurrency-and-RaceConditions/16-seqlocks/seqlocks",
+            "16-Concurrency-and-RaceConditions/18-Read-Copy-Update/Read-Copy-Update"
+        ],
+        "Advanced Char Driver Operations" : [
+            "18-Advanced-Char-Driver-Operations/02-ioctl/ioctl",
+            "18-Advanced-Char-Driver-Operations/04-Blocking-Input-Output/Blocking-Input-Output",
+            "18-Advanced-Char-Driver-Operations/06-Advanced-Sleeping/Advanced-Sleeping",
+            "18-Advanced-Char-Driver-Operations/08-poll-and-select/poll-and-select",
+            "18-Advanced-Char-Driver-Operations/10-Interaction-with-read-and-write/Interaction-with-read-and-write",
+            "18-Advanced-Char-Driver-Operations/12-Asynchronous-Notification/Asynchronous-Notification",
+            "18-Advanced-Char-Driver-Operations/14-Seeking-a-Device/Seeking-a-Device",
+            "18-Advanced-Char-Driver-Operations/16-Access-Control-on-a-Device-File/Access-Control-on-a-Device-File"
+        ],
+        "Time, Delays and Deferred Work" : [
+            "20-Time,-Delays-and-Deferred-Work/02-Measuring-Time-Lapses/Measuring-Time-Lapses",
+            "20-Time,-Delays-and-Deferred-Work/04-Knowing-the-Current-Time/Knowing-the-Current-Time",
+            "20-Time,-Delays-and-Deferred-Work/06-Delaying-Execution/Delaying-Execution",
+            "20-Time,-Delays-and-Deferred-Work/08-Kernel-Timers/Kernel-Timers",
+            "20-Time,-Delays-and-Deferred-Work/10-Tasklets/Tasklets",
+            "20-Time,-Delays-and-Deferred-Work/12-Workqueues/Workqueues"
+        ],
+        "Memory Allocation" : [
+            "22-Memory-Allocation/02-Overview/Overview",
+            "22-Memory-Allocation/04-kmalloc-and-kfree/kmalloc-and-kfree",
+            "22-Memory-Allocation/06-Lookaside-Caches/Lookaside-Caches",
+            "22-Memory-Allocation/08-Memory-Pools/Memory-Pools",
+            "22-Memory-Allocation/10-get_free_page-and-Friends/get_free_page-and-Friends",
+            "22-Memory-Allocation/12-vmalloc-and-Friends/vmalloc-and-Friends",
+            "22-Memory-Allocation/14-Per-CPU-Variables/Per-CPU-Variables",
+            "22-Memory-Allocation/16-Obtaining-Large-Buffers/Obtaining-Large-Buffers"
+        ],
+        "Communicating with Hardware" : [
+            "24-Communicating-with-Hardware/02-IO-Ports-and-IO-Memory/IO-Ports-and-IO-Memory",
+            "24-Communicating-with-Hardware/04-Using-IO-Ports/Using-IO-Ports",
+            "24-Communicating-with-Hardware/06-Using-IO-Memory/Using-IO-Memory"
+        ],
+        "Interrupt Handling" : [
+            "26-Interrupt-Handling/02-Interrupt-Overview/Interrupt-Overview",
+            "26-Interrupt-Handling/04-Installing-an-Interrupt-Handler/Installing-an-Interrupt-Handler",
+            "26-Interrupt-Handling/06-Implementing-a-Handler/Implementing-a-Handler",
+            "26-Interrupt-Handling/08-Enabling-and-Disabling-Interrupts/Enabling-and-Disabling-Interrupts",
+            "26-Interrupt-Handling/10-Top-and-Bottom-Halves/Top-and-Bottom-Halves",
+            "26-Interrupt-Handling/12-Interrupt-Sharing/Interrupt-Sharing",
+            "26-Interrupt-Handling/14-Interrupt-Driven-IO/Interrupt-Driven-IO"
+        ],
+        "Data Types in the Kernel" : [
+            "28-Data-Types-in-the-Kernel/02-Standard-C-Types/Standard-C-Types",
+            "28-Data-Types-in-the-Kernel/04-Interface-Specific-Types/Interface-Specific-Types",
+            "28-Data-Types-in-the-Kernel/06-Portability-Issues/Portability-Issues",
+            "28-Data-Types-in-the-Kernel/08-Linked-Lists/Linked-Lists"
+        ],
+        "PCI Drivers" : [
+            "30-PCI-Drivers/02-Overview/Overview",
+            "30-PCI-Drivers/04-The-PCI-Interface/The-PCI-Interface",
+            "30-PCI-Drivers/06-Boot-Time-Configuration/Boot-Time-Configuration",
+            "30-PCI-Drivers/08-PCI-Driver/PCI-Driver",
+            "30-PCI-Drivers/10-PCI-Probing/PCI-Probing",
+            "30-PCI-Drivers/12-Accessing-PCI-Configuration-Space/Accessing-PCI-Configuration-Space",
+            "30-PCI-Drivers/14-Accessing-the-IO-and-Memory-Spaces/Accessing-the-IO-and-Memory-Spaces",
+            "30-PCI-Drivers/16-PCI-Interrupts/PCI-Interrupts"
+        ],
+        "The Linux Device Model" : [
+            "32-The-Linux-Device-Model/02-Overview/Overview",
+            "32-The-Linux-Device-Model/04-Kobjects-Ksets-and-Subsystems/Kobjects-Ksets-and-Subsystems",
+            "32-The-Linux-Device-Model/06-Low-Level-Sysfs-Operations/Low-Level-Sysfs-Operations",
+            "32-The-Linux-Device-Model/08-Hotplug-Event-Generation/Hotplug-Event-Generation",
+            "32-The-Linux-Device-Model/10-Buses-Devices-and-Drivers/Buses-Devices-and-Drivers",
+            "32-The-Linux-Device-Model/12-Device-Classes/Device-Classes",
+            "32-The-Linux-Device-Model/14-Putting-It-All-Together/Putting-It-All-Together",
+            "32-The-Linux-Device-Model/16-Hotplug-and-Dynamic-Devices/Hotplug-and-Dynamic-Devices"
+        ],
+        "Memory Mappingand DMA" : [
+            "34-Memory-Mappingand-DMA/02-Overview/Overview",
+            "34-Memory-Mappingand-DMA/04-Memory-Management-in-Linux/Memory-Management-in-Linux",
+            "34-Memory-Mappingand-DMA/06-Page-Tables/Page-Tables",
+            "34-Memory-Mappingand-DMA/08-The-Process-Memory-Map/The-Process-Memory-Map",
+            "34-Memory-Mappingand-DMA/10-The-mmap-Device-Operation/The-mmap-Device-Operation",
+            "34-Memory-Mappingand-DMA/12-Performing-Direct-IO/Performing-Direct-IO",
+            "34-Memory-Mappingand-DMA/14-Direct-Memory-Access/Direct-Memory-Access",
+            "34-Memory-Mappingand-DMA/16-The-Generic-DMA-Layer/The-Generic-DMA-Layer"
+        ],
+        "Network Drivers" : [
+            "36-Network-Drivers/02-Overview/Overview",
+            "36-Network-Drivers/04-MAC-PHY-and-MII-Interface/MAC-PHY-and-MII-Interface",
+            "36-Network-Drivers/06-Writing-Network-Driver/Writing-Network-Driver",
+            "36-Network-Drivers/08-Connecting-to-the-Kernel/Connecting-to-the-Kernel",
+            "36-Network-Drivers/10-The-net_device-Structure-in-Detail/The-net_device-Structure-in-Detail",
+            "36-Network-Drivers/12-Opening-and-Closing/Opening-and-Closing",
+            "36-Network-Drivers/14-Packet-Transmission/Packet-Transmission",
+            "36-Network-Drivers/16-Scatter-Gather-IO/Scatter-Gather-IO",
+            "36-Network-Drivers/18-Packet-Reception/Packet-Reception",
+            "36-Network-Drivers/20-The-Interrupt-Handler/The-Interrupt-Handler",
+            "36-Network-Drivers/22-Receive-Interrupt-Mitigation/Receive-Interrupt-Mitigation",
+            "36-Network-Drivers/24-Changes-in-Link-State/Changes-in-Link-State",
+            "36-Network-Drivers/26-The-Socket-Buffers/The-Socket-Buffers",
+            "36-Network-Drivers/28-MAC-Address-Resolution/MAC-Address-Resolution",
+            "36-Network-Drivers/30-Custom-ioctl-Commands/Custom-ioctl-Commands",
+            "36-Network-Drivers/32-Network-Statistics/Network-Statistics",
+            "36-Network-Drivers/34-Multicast-Traffic/Multicast-Traffic",
+            "36-Network-Drivers/36-Network-Tools/Network-Tools"
+        ],
+        "Conclusion" : [
+            "38-Conclusion/02-References/References",
+            "38-Conclusion/04-Further-Reading/Further-Reading"
+        ]
+    }
+}
