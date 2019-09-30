@@ -6,7 +6,8 @@
     "publish-gh-pages": "docusaurus-publish",
     "write-translations": "docusaurus-write-translations",
     "version": "docusaurus-version",
-    "rename-version": "docusaurus-rename-version"
+    "rename-version": "docusaurus-rename-version",
+    "deploy": "GIT_USER=hoodaajay99 npm run publish-gh-pages"
   },
   "devDependencies": {
     "docusaurus": "^1.13.0"

@@ -22,15 +22,15 @@ const users = [
 
 const siteConfig = {
   title: 'Tech Skillo', // Title for your website.
-  tagline: 'Learn Programming in C',
-  url: 'https://techskillo.com', // Your website URL
-  baseUrl: '/', // Base URL for your project */
+  tagline: 'Learn Writing Linux Kernel Device Drivers',
+  url: 'https://hoodaajay99.github.io', // Your website URL
+  baseUrl: '/linux-kernel-device-drivers/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
 
   // Used for publishing and more
-  projectName: 'c_programming',
+  projectName: 'linux-kernel-device-drivers',
   organizationName: 'hoodaajay99',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
@@ -121,7 +121,7 @@ const siteConfig = {
   //disableTitleTagline: true,
 
   // Sets edit on each page with link to markdown file on GitHub
-  editUrl: "https://github.com/hoodaajay99/c_programming/blob/master/docs/",
+  editUrl: "https://github.com/hoodaajay99/linux-kernel-device-drivers/blob/master/docs/",
 
   // scroll to top button at the bottom of your site.
   // scrollToTop: true
