@@ -91,6 +91,35 @@ Ethernet drivers is a software programs that provide hardware-software interacti
 - Collects MAC and PHY stats and status
 - Exposes MAC and PHY stats and status to the application
 
-## Media Independent Interface
+## Interfaces between a MAC and a PHY
+- Media Independent Interfaces are implemented between MAC and a PHY
+- Ethernet industry standard defined in IEEE 802.3
+- Consists of `data interface` and `management interface` between a MAC and a PHY
+- Data interface consists of 
+  - Transmitter Channel
+  - Receiver Channel
+- Each channel has its own clock, data, and control signals
+- With the management interface, upper layers can monitor and control the PHY
+
+## MII (Media Independent Interface)
+- Called `Media Independent Interface`
+- Standard interface to connect a Fast Ethernet (i.e., 100 Mbit/s) media access control (MAC) block to a PHY chip.
+- The MII is standardized by IEEE 802.3u
+- `Media independent:` Different media (twisted pair, fiber optic etc) can be used without redesigning or replacing the MAC hardware
+
+### Management Data Input/Output (MDIO)
+-  Two wire serial bus interface, subset of the MII
+-  Used to transfer management information between MAC and PHY
+-  PHY sets initial settings via autonegotiation
+-  MDIO is used to override the default PHY settings
+
+
+## RMII (Reduced media-independent interface)
+## GMII (gigabit media-independent interface)
+## RGMII (reduced gigabit media-independent interface)
+## SGMII (serial gigabit media-independent interface)
+## HSGMII (high serial gigabit media-independent interface)
+## QSGMII (quad serial gigabit media-independent interface)
+## XGMII (10-gigabit media-independent interface)
 
 
