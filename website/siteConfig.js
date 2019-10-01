@@ -108,13 +108,13 @@ const siteConfig = {
   // customDocsPath: '../c_programming_course'
 
   // It will go into a CNAME file when your site is built.
-  cname: 'techskillo.com',
+  // cname: 'techskillo.com',
 
   // Google Analytics tracking ID to track page views.
-  gaTrackingId: "UA-46809639-2",
+  // gaTrackingId: "UA-46809639-2",
   // Use global site tags (gtag.js)
   // send event data to all - Google Ads, Campaign Manager, Display & Video 360, Search Ads 360, and Google Analytics
-  gaGtag: true,
+  // gaGtag: true,
 
   // Shows on Home Page
   tagline: "Learn Programming With Industry Experts",
