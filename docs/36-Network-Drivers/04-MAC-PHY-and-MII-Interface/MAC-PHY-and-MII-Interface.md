@@ -102,10 +102,10 @@ Ethernet drivers is a software programs that provide hardware-software interacti
 - With the management interface, upper layers can monitor and control the PHY
 
 ## MII (Media Independent Interface)
-- Called `Media Independent Interface`
-- Standard interface to connect a Fast Ethernet (i.e., 100 Mbit/s) media access control (MAC) block to a PHY chip.
-- The MII is standardized by IEEE 802.3u
-- `Media independent:` Different media (twisted pair, fiber optic etc) can be used without redesigning or replacing the MAC hardware
+- Standard interface, standardized by IEEE 802.3u 
+- Connect a Fast Ethernet (i.e., 100 Mbit/s) (MAC) block to a PHY chip.
+
+> **`Media independent:`** Different media (twisted pair, fiber optic etc) can be used without redesigning or replacing the MAC hardware
 
 ### Management Data Input/Output (MDIO)
 -  Two wire serial bus interface, subset of the MII
