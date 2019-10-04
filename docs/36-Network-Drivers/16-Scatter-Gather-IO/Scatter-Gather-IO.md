@@ -44,3 +44,6 @@ if (skb_shinfo(skb)->nr_frags > 0) {
     /* For each fragment, map the page address to one Descriptor */
 }
 ```
+
+> `skb` holding the packet data should be freed after successful transmission by calling `dev_kfree_skb`. It should also be freed in case of packet drop due to any error conditions. 
+

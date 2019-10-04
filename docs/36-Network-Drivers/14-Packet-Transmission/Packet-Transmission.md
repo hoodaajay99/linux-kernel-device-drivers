@@ -84,3 +84,6 @@ The hard_start_xmit function is protected from concurrent calls by a `spinlock (
 - Transmission Timeouts can happen in the system, and cause `transmission lockups`
 - Networking system identifies and handles Timeouts.
 - Driver has to only set the `watchdog_timeo`
+
+
+> `skb` holding the packet data should be freed after successful transmission by calling `dev_kfree_skb`. It should also be freed in case of packet drop due to any error conditions.
