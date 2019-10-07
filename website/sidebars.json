@@ -155,6 +155,7 @@
         ],
         "Network Drivers" : [
             "36-Network-Drivers/02-Overview/Overview",
+            "36-Network-Drivers/03-Networking-Terms/Networking-Terms",
             "36-Network-Drivers/04-MAC-PHY-and-MII-Interface/MAC-PHY-and-MII-Interface",
             "36-Network-Drivers/06-Writing-Network-Driver/Writing-Network-Driver",
             "36-Network-Drivers/08-Connecting-to-the-Kernel/Connecting-to-the-Kernel",
