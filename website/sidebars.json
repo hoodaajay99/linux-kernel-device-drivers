@@ -173,7 +173,8 @@
             "36-Network-Drivers/32-Network-Statistics/Network-Statistics",
             "36-Network-Drivers/34-Multicast-Traffic/Multicast-Traffic",
             "36-Network-Drivers/36-Network-Tools/Network-Tools",
-            "36-Network-Drivers/38-ieee-802-1q/ieee-802-1q"
+            "36-Network-Drivers/38-ieee-802-1q/ieee-802-1q",
+            "36-Network-Drivers/38-ieee-802-1q/ieee-802-1p"
         ],
         "Conclusion" : [
             "38-Conclusion/02-References/References",
