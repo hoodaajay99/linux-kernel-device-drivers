@@ -3,6 +3,8 @@ id: ieee-802-1p
 title: IEEE 8021p - VLAN Tagging and Traffic Prioritization 
 sidebar_label: IEEE 8021p Prioritization
 ---
+
+
 ## IEEE 802.1p
 - Added Quality of service (QoS) at the media access control (MAC) level
 - IEEE 802.1Q-2014 is the latest standard 
