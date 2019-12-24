@@ -21,9 +21,9 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Tech Skillo', // Title for your website.
+  title: 'Tech Skillo - Learn Writing Linux Kernel Device ', // Title for your website.
   tagline: 'Learn Writing Linux Kernel Device Drivers',
-  url: 'https://hoodaajay99.github.io', // Your website URL
+  url: 'https://ldd.techskillo.com', // Your website URL
   baseUrl: '/linux-kernel-device-drivers/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -108,13 +108,13 @@ const siteConfig = {
   // customDocsPath: '../c_programming_course'
 
   // It will go into a CNAME file when your site is built.
-  // cname: 'techskillo.com',
+  cname: 'ldd.techskillo.com',
 
   // Google Analytics tracking ID to track page views.
-  // gaTrackingId: "UA-46809639-2",
+  gaTrackingId: "UA-46809639-2",
   // Use global site tags (gtag.js)
   // send event data to all - Google Ads, Campaign Manager, Display & Video 360, Search Ads 360, and Google Analytics
-  // gaGtag: true,
+  gaGtag: true,
 
   // Shows on Home Page
   tagline: "Learn Programming With Industry Experts",
