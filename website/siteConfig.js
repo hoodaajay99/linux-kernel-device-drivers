@@ -21,10 +21,10 @@ const users = [
 ];
 
 const siteConfig = {
-  title: 'Tech Skillo - Learn Writing Linux Kernel Device ', // Title for your website.
+  title: 'Tech Skillo', // Title for your website.
   tagline: 'Learn Writing Linux Kernel Device Drivers',
   url: 'https://ldd.techskillo.com', // Your website URL
-  baseUrl: '/linux-kernel-device-drivers/', // Base URL for your project */
+  baseUrl: '/', // Base URL for your project */
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
   //   baseUrl: '/test-site/',
@@ -38,9 +38,9 @@ const siteConfig = {
 
   // For no header links in the top nav bar -> headerLinks: [],
   headerLinks: [
-    // {doc: '00-Course-Introduction/course-introduction', label: 'START THE COURSE'},
+    {doc: '00-Course-Introduction/course-introduction', label: 'START THE COURSE'},
     // {page: 'help', label: 'HELP'},
-    // {blog: true, label: 'BLOG'},
+    {blog: true, label: 'BLOG'},
   ],
 
   // If you have users set above, you add it here:
@@ -117,7 +117,7 @@ const siteConfig = {
   gaGtag: true,
 
   // Shows on Home Page
-  tagline: "Learn Programming With Industry Experts",
+  tagline: "Linux Kernel Device Drivers",
   //disableTitleTagline: true,
 
   // Sets edit on each page with link to markdown file on GitHub
